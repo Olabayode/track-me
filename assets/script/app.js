@@ -1,5 +1,28 @@
 'use-strict';
 
+const track = document.querySelector('.track');
+const mapElement = document.getElementById('map');
+let mapVisible = false;
+
+track.addEventListener('click', () => {
+    if (!mapVisible) {
+        // Show map
+        mapElement.style.display = 'block';
+        track.textContent = 'Hide Map';
+        mapVisible = true;
+
+        setTimeout(() => {
+            map.resize();  
+            mapElement.scrollIntoView({ behavior: 'smooth', block: 'end' });
+        }, 150);
+    } else {
+        // Hide map
+        mapElement.style.display = 'none';
+        track.textContent = 'Track Ride';
+        mapVisible = false;
+    }
+});
+
 mapboxgl.accessToken = 'pk.eyJ1IjoiZ3VybGlua2F1ciIsImEiOiJjbHExYjM4cHUwNzE3MnBud25qNDlmc2VjIn0.Jeu9BD0h1vILAwXce8dQqw';
 
 const map = new mapboxgl.Map({
