@@ -2,6 +2,8 @@
 
 A modern web application for **real-time car rental tracking** using **HTML5**, **CSS3**, **Vanilla JavaScript**, and the **Mapbox GL JS API**.
 
+**Click on Track Ride Button to enable the map**
+
 ## ✨ **Features**
 
 - **Real-time GPS Tracking** - Live location updates via browser geolocation
