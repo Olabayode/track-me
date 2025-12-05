@@ -10,6 +10,10 @@
         <link rel="stylesheet" href="./assets/style/index.css">
         <script src="./assets/script/app.js" defer></script>
         <title>You Are Here</title>
+        <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v3.17.0-beta.1/mapbox-gl.css">
+        <script src="https://api.mapbox.com/mapbox-gl-js/v3.17.0-beta.1/mapbox-gl.js"></script>
+        <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.1/mapbox-gl-directions.js"></script>
+        <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.1/mapbox-gl-directions.css" type="text/css">
     </head>
     <body>  
         <header class="container">
@@ -24,10 +28,16 @@
             </nav>
         </header>
         <main class="container">
-            <p class="heading">Track Your Rider</p>
-            <p>Book Rides and Track Your Ride On It's Way To You</p>
-            <p>You Can Track Your Rides Anywhere, Anytime</p>
-            <p>We Take Pride In Your Safety</p>
+            <p class="heading">Welcome to P-Ride Car Services</p>
+            <p>Experience the future of car rental and chauffeur services with P-Ride where convenience meets cutting-edge technology.</p>
+            <h2>Book with P-Ride </h2>
+            <p>From the moment you reserve your car, P-Ride gives you full control.</p>     <p>Choose from a luxury fleet tailored to your needs, book in seconds, and start your journey stress-free.</p>
+            <h2>Real-Time Ride Tracking</h2>
+            <p>Never wonder where your ride is. Our integrated live map lets you track your vehicle from the moment it's booked </p> 
+            <p> From pickup, your trip, and right up until the return. Monitor your driver's location, estimated arrival times, and trip progress </p>
+            <p> All on a seamless, interactive map. We take P-Ride in your safety</p>
+            <input type="button" value="Track">
+            <div id="map" class="map"></div>
         </main>
     </body>
 </html>

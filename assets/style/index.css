@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: #efe0af;
+    background-color: #eef1cd;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -48,7 +48,7 @@ nav ul li{
 .login:hover{
     color: #0A8754;
     background-color: #fff;
-    box-shadow: #0A8754;
+    box-shadow: 10px 4px 5px #28b97f;
 }
 
 main{
@@ -59,15 +59,43 @@ main{
 }
 
 .heading{
-    font-size: 80px;
+    color: #0A8754;
+    font-size: 50px;
     font-weight: 700;
     letter-spacing: 3px;
 }
 
 main p{
+    color: #000;
     font-size: 28px;
 }
 
+h2{
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+input{
+    margin: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: #0A8754;
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+}
+
+input:hover{
+    color: #0A8754;
+    background-color: #fff;
+    box-shadow: 10px 4px 5px #28b97f;
+}
+
+.map{
+    height: 100svh;
+    width: 100%;
+}
 
 
 

@@ -1,0 +1,26 @@
+{
+  "name": "you-are-here",
+  "version": "1.0.0",
+  "description": "A web application that tracks my present location.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Olabayode/track-me.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Olabayode/track-me/issues"
+  },
+  "homepage": "https://github.com/Olabayode/track-me#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  },
+  "dependencies": {
+    "eslint": "^9.39.1"
+  }
+}
